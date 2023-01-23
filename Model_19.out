@@ -1,0 +1,83 @@
+
+                                      ARENA Simulation Results
+                                      Sasha - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 1/20/2023
+Analyst: Oleksandr                                                   Model revision date: 1/20/2023
+
+Replication ended at time      : 14400.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TheMachine.VATime                           89.857     1.4935     .00000     356.06       1934    
+TheMachine.NVATime                          .00000     .00000     .00000     .00000       1934    
+TheMachine.WaitTime                         3.1200     (Corr)     .00000     304.10       1934    
+TheMachine.TranTime                         .00000     .00000     .00000     .00000       1934    
+TheMachine.OtherTime                        .00000     .00000     .00000     .00000       1934    
+TheMachine.TotalTime                        92.977     1.3880     .00000     511.14       1934    
+Transport_2.VATime                          22.000     (Insuf)    14.000     30.000          9    
+Transport_2.NVATime                         .00000     (Insuf)    .00000     .00000          9    
+Transport_2.WaitTime                        .00000     (Insuf)    .00000     .00000          9    
+Transport_2.TranTime                        .00000     (Insuf)    .00000     .00000          9    
+Transport_2.OtherTime                       .00000     (Insuf)    .00000     .00000          9    
+Transport_2.TotalTime                       22.000     (Insuf)    14.000     30.000          9    
+Transport_1.VATime                          .00000     (Insuf)    .00000     .00000          1    
+Transport_1.NVATime                         .00000     (Insuf)    .00000     .00000          1    
+Transport_1.WaitTime                        .00000     (Insuf)    .00000     .00000          1    
+Transport_1.TranTime                        .00000     (Insuf)    .00000     .00000          1    
+Transport_1.OtherTime                       .00000     (Insuf)    .00000     .00000          1    
+Transport_1.TotalTime                       .00000     (Insuf)    .00000     .00000          1    
+Node.VATime                                 .00000     .00000     .00000     .00000        652    
+Node.NVATime                                .00000     .00000     .00000     .00000        652    
+Node.WaitTime                               18.385     (Corr)     .00000     103.19        652    
+Node.TranTime                               .00000     .00000     .00000     .00000        652    
+Node.OtherTime                              .00000     .00000     .00000     .00000        652    
+Node.TotalTime                              18.385     (Corr)     .00000     103.19        652    
+Wait for available machine.Queue.WaitingTi  18.385     (Corr)     .00000     103.19        652    
+Machines.Queue.WaitingTime                  9.1571     (Corr)     .00000     304.10        652    
+Wait for any transport to arrive and check  9.9601     (Insuf)    .39391     28.173         26    
+Wait for transport 1.Queue.WaitingTime      .00000     .00000     .00000     .00000        652    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TheMachine.WIP                              12.601     .08820     .00000     20.000     12.000    
+Transport_2.WIP                             .01375     (Insuf)    .00000     9.0000     .00000    
+Transport_1.WIP                             .00000     (Insuf)    .00000     1.0000     .00000    
+Node.WIP                                    .83243     (Corr)     .00000     5.0000     .00000    
+Machine.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
+Machine.NumberScheduled                     10.000     (Insuf)    10.000     10.000     10.000    
+Machine.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
+Wait for available machine.Queue.NumberInQ  .83243     (Corr)     .00000     5.0000     .00000    
+Machines.Queue.NumberInQueue                .41461     (Corr)     .00000     10.000     .00000    
+Wait for any transport to arrive and check  .01798     (Insuf)    .00000     1.0000     .00000    
+Wait for transport 1.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TheMachine.NumberIn                         1946.0    
+TheMachine.NumberOut                        1934.0    
+Transport_2.NumberIn                        9.0000    
+Transport_2.NumberOut                       9.0000    
+Transport_1.NumberIn                        1.0000    
+Transport_1.NumberOut                       1.0000    
+Node.NumberIn                               652.00    
+Node.NumberOut                              652.00    
+Machine.NumberSeized                        .00000    
+Machine.ScheduledUtilization                .00000    
+System.NumberOut                            2596.0    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

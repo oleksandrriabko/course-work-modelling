@@ -1,0 +1,90 @@
+[RESOURCES]
+Machine
+[VARIABLES]
+Attached transport available?.NumberOut True
+Attached transport available?.NumberOut False
+Is there an unattached transport available?.NumberOut True
+Move Ready node to warehouse.NumberOut
+Is there an unattached transport available?.NumberOut False
+Move Ready node to warehouse.NumberIn
+Create transport_2.NumberOut
+Create transport_1.NumberOut
+The transport needs to go further from the warehouse?.NumberOut False
+The transport needs to go further from the warehouse?.NumberOut True
+t1
+t0
+t2
+Waiting for the unnattached transport 2 to come.NumberIn
+Move Node to available machine.NumberOut
+Waiting for the unnattached transport 2 to come.NumberOut
+Process node and return a transport in parallel.NumberOut Dup
+Process node and return a transport in parallel.NumberOut Orig
+Go further from the warehouse to needed machine.NumberOut
+Give Ready detail and come back.NumberOut Dup
+Wait for transport 2.NumberIn
+processNodeMean
+Go further from the warehouse to needed machine.NumberIn
+Machine where to go was found?.NumberOut True
+Move Ready node to warehouse with attached transport.NumberIn
+Move Ready node to warehouse with attached transport.NumberOut
+lambda
+curTransportCount_1
+Create request to process Node.NumberOut
+Machine where to go was found?.NumberOut False
+Move transport 1 back.NumberOut
+Move transport 1 back.NumberIn
+Attached transport goes back to machine.NumberIn
+Attached transport goes back to machine.NumberOut
+Current transport_2 is attached to current machine?.NumberOut False
+ordinalNumberCounter
+Give Ready detail and come back.NumberOut Orig
+Dispose Agent.NumberOut
+nodeIncome
+Current transport_2 is attached to current machine?.NumberOut True
+processNodeSigma
+curUnattachedTransportCount_2
+creationOrdinalNumberTransport_2
+Grab a nearest available machine.BestIndex
+Current transport can pick the detail.NumberOut False
+Grab a nearest available machine.MinMax
+Current transport can pick the detail.NumberOut True
+Mark machine as available and transport Ready node to warehouse.NumberOut Dup
+Mark machine as available and transport Ready node to warehouse.NumberOut Orig
+All Transport_2 created.NumberOut
+All Transport_1 created.NumberOut
+Wait for transport 2.NumberOut
+transport_2_busy
+Go to initial position.NumberIn
+Go to initial position.NumberOut
+transportHasArrived
+transport_2_attach
+We have not checked all transports for being attached to this machine.NumberOut False
+transportCount_2
+transportCount_1
+We have not checked all transports for being attached to this machine.NumberOut True
+Return both the transport and machine.NumberOut Orig
+Return both the transport and machine.NumberOut Dup
+Node is processed.NumberOut
+Create machines.NumberOut
+TransportSpending
+Move Node to available machine.NumberIn
+Find position where to go.NumberIn
+Find position where to go.NumberOut
+Take transport_2 on their positions.NumberIn
+Take transport_2 on their positions.NumberOut
+Attached transport is ready.NumberOut
+The transport is near needed machine?.NumberOut True
+Transport 1 is returned.NumberOut
+The transport is near needed machine?.NumberOut False
+Process Node by machine.NumberIn
+transportHasArrivedSignal
+transport_2_position
+We have not checked all machines.NumberOut True
+Grab a nearest available machine.NumberRemoved
+We have not checked all machines.NumberOut False
+Process Node by machine.NumberOut
+MachineCount
+Move attached transport to the machine.NumberOut
+Go nearer to the warehouse to needed machine.NumberIn
+Go nearer to the warehouse to needed machine.NumberOut
+Move attached transport to the machine.NumberIn
